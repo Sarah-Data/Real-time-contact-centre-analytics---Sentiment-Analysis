@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title style="text-align: center; color: black;">Audio Sentiment Analysis</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+	body {
+            background-color: #f0f0f0; /* Grey background color */
+	}
+        .condition-response {
+            font-size: 60px;
+        }
+        .emoji {
+            font-size: 90px;
+        }
+        .escalate {
+            font-size: 60px;
+            color: red;
+	    cursor: pointer;
+	    text-align: center;
+	    animation: blink 2.5s infinite;
+        }
+	.noescalate {
+            font-size: 60px;
+            color: green;
+            cursor: pointer;
+	    text-align: center;
+	    animation: blink 2.5s infinite;
+        }
+	.result-header {
+            font-size: 60px; /* Adjust the font size as desired */
+            text-align: center;
+            color: black;
+            margin-top: 20px;
+	    text-shadow: 3px 3px 3px #777;
+	}
+	@keyframes blink {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="result-header">Audio Sentiment Analysis Result</h1>
+    <div class="result-box" style="text-align: center;">
+        <h2 style="font-size: 36px;text-decoration: underline;"><em>Predicted Sentiment: Customer Speech Emotion Recognition</em></h2>
+        <p class="condition-response">
+            {% if label == 0 %}
+                ANGRY
+            {% elif label == 1 %}
+                Disgust
+            {% elif label == 2 %}
+                Fear
+            {% elif label == 3 %}
+                Happy
+            {% elif label == 4 %}
+                Neutral
+            {% elif label == 5 %}
+                ps
+            {% elif label == 6 %}
+                Sad
+            {% else %}
+                Unknown
+            {% endif %}
+        </p>
+        <p class="emoji">
+            {% if label == 0 %}
+                😡
+            {% elif label == 1 %}
+                🤢
+            {% elif label == 2 %}
+                😨
+            {% elif label == 3 %}
+                😄
+            {% elif label == 4 %}
+                😐
+            {% elif label == 5 %}
+                😲
+            {% elif label == 6 %}
+                😢
+            {% else %}
+                ❓
+            {% endif %}
+        </p>
+    </div>
+	    {% if label == 6 %}
+		<p class="escalate"> Alert Service Recovery Team!</p>
+	    {% else %}
+                <p class="noescalate"> Good to go!</p>
+            {% endif %}
+</body>
+</html>
