@@ -84,7 +84,7 @@ def predict():
     #predicted_labels = label_encoder.inverse_transform(predictions)
 
     # Render the result page with the predicted label
-    return render_template('result.html', label=predicted_labels)
+    return render_template('result_.html', label=predicted_labels)
 
 # Run the Flask application
 if __name__ == '__main__':
