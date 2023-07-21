@@ -28,7 +28,7 @@ The project takes a customer call audio recording and analyzes both it’s audio
 I utilized a feedforward neural network  model, a type of artificial neural network where the information flows only in one direction, from the input layer to the output layer. Each neuron in one layer is connected to every neuron in the next layer, and there are no cycles or loops in the network.
 The SER model results in 99% accuracy with 10 epochs i.e the neural network was trained for 10 iterations on the audio dataset, and after these iterations, it achieved an accuracy of 99% on the training data.
 
-<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/epoch.jpg" width="800" height="auto">
+<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Epoch.jpg" width="800" height="auto">
 
 
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Confusion%20Matrix.jpg" width="550" height="auto">
