@@ -39,12 +39,14 @@ What 99% accuracy means for this model is that, there was only one incorrect pre
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output-%20SER.jpg" width="550" height="auto">
 
 ### NLTK Result
+
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output%20-%20NLTK.jpg" width="550" height="auto">
 
 ## Conclusion
 
 As we can see from the display on the webpage, the SER sentiment is correctly classified as sad which is of course, negative.
 If we use the NLTK model to classify the same audio file, the result, although overwhelmingly neutral, It has elements of both positive and negative sentiments; with the negative sentiment almost twice that of the positive sentiment.
+
 The SER model works better.
 
 ## Further Development
