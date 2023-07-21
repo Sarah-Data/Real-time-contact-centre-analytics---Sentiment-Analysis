@@ -36,7 +36,7 @@ What 99% accuracy means for this model is that, there was only one incorrect pre
 
 ## Model Testing
 ### SER Result
-<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output%20-%20SER.jpg" width="550" height="auto">
+<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output-%20SER.jpg" width="550" height="auto">
 
 ### NLTK Result
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output%20-%20NLTK.jpg
