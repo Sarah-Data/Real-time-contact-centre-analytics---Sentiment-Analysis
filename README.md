@@ -20,4 +20,8 @@ Here is the process diagram of my project
 
 
 The project takes a customer call audio recording and analyzes both it’s audio features like tone, pitch etc. for speech emotion recognition, and it’s content (by converting the audio to text, to provide conversational context). This analysis leads to 2 broad sentiment categorizations; positive and negative. Negative interactions can be immediately pushed to a specialized team to perform service recovery.
-![image](https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/assets/128204536/27d230dd-0817-43c1-96b1-7789f21ae37b)
+
+
+<img src="https://https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/System%20Architecture.jpg" width="550" height="auto">
+
+
