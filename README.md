@@ -12,3 +12,12 @@ Now, imagine if a few minutes later, the customer receives another call or messa
 This kind of near real-time service recovery can make a significant difference in customer experience and satisfaction delivered by this channel.
 
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/Contact%20Centre%20jpeg.jpg" width="550" height="auto">
+
+
+For this reason, I have come up with a project that leverages ML models that grab and analyze audio for customer sentiments and classifies into 2 broad categories. 
+
+Here is the process diagram of my project 
+
+
+The project takes a customer call audio recording and analyzes both it’s audio features like tone, pitch etc. for speech emotion recognition, and it’s content (by converting the audio to text, to provide conversational context). This analysis leads to 2 broad sentiment categorizations; positive and negative. Negative interactions can be immediately pushed to a specialized team to perform service recovery.
+![image](https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/assets/128204536/27d230dd-0817-43c1-96b1-7789f21ae37b)
