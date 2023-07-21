@@ -6,6 +6,6 @@ A ton of customers have encountered a negative experience with a contact center 
 Now, imagine if a few minutes later, the customer receives another call or message apologizing for the inconvenience and being provided with the information or resolution needed? How would he/she feel?
 This kind of near real-time service recovery can make a significant difference in customer experience and satisfaction delivered by this channel.
 
-<img src="path/to/your/image.jpg" width="200" height="auto">
+<img src="[path/to/your/image.jpg](https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/Contact%20Centre%20jpeg.jpg)https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/Contact%20Centre%20jpeg.jpg" width="200" height="auto">
 
 ![Contact Centre Analytics](Contact%20Centre%20jpeg.jpg)
