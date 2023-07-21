@@ -4,7 +4,7 @@
 
 Source: https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess
 
-## Introduction**
+## Introduction
 *Real-time contact centre analytics - using sentiment analysis of audio only, transcript only and/or both to improve customer experience*
 
 Sometimes, it could be particularly difficult to track and perform service recovery for customers who had bad experiences on the call, except on the odd instance where the customer or agent volunteered feedback.
