@@ -1,4 +1,4 @@
-## **SPEECH EMOTION RECOGNITION(SER) & NLTK POLARITY MODELS**
+## **SPEECH EMOTION RECOGNITION(SER) MODEL & NLTK POLARITY MODEL**
 
 **Dataset** - I trained using Toronto Emotional Speech set (TESS) dataset having  2800 data points (audio files) and 7 distinct emotions (angry, disgust, fear, happy, neutral pleasant surprise, sad)
 
