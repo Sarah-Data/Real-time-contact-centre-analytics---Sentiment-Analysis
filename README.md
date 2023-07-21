@@ -1,6 +1,7 @@
 ## **SPEECH EMOTION RECOGNITION(SER) & NLTK POLARITY MODELS**
 
-Dataset - I trained using Toronto Emotional Speech set (TESS) dataset having  2800 data points (audio files) and 7 distinct emotions (angry, disgust, fear, happy, neutral pleasant surprise, sad)
+**Dataset** - I trained using Toronto Emotional Speech set (TESS) dataset having  2800 data points (audio files) and 7 distinct emotions (angry, disgust, fear, happy, neutral pleasant surprise, sad)
+
 Source: https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess
 
 *Real-time contact centre analytics - using sentiment analysis of audio only, transcript only and/or both to improve customer experience*
