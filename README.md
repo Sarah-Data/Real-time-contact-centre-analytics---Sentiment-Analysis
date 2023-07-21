@@ -39,5 +39,20 @@ What 99% accuracy means for this model is that, there was only one incorrect pre
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output-%20SER.jpg" width="550" height="auto">
 
 ### NLTK Result
-<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output%20-%20NLTK.jpg
-)" width="550" height="auto">
+<img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Audio%20sentiment%20output%20-%20NLTK.jpg" width="550" height="auto">
+
+## Conclusion
+
+As we can see from the display on the webpage, the SER sentiment is correctly classified as sad which is of course, negative.
+If we use the NLTK model to classify the same audio file, the result, although overwhelmingly neutral, It has elements of both positive and negative sentiments; with the negative sentiment almost twice that of the positive sentiment.
+The SER model works better.
+
+## Further Development
+
+**Roberta Trained Transformers** - I would love to explore the use of Roberta Trained Transformers, as against the NLTK Polarity model because it combines text analysis(bag-of-words) with contextual elements (emotions) which makes it the perfect model for this kind of project.
+
+**DBMS and Analytics** - I would like to store output sentiments in a database management system from which service recovery, QA and model performance analytics can be built.
+
+**Keyword Spotting/Complaints Classification** - I would like to further classify negative sentiments according to causation categories. For example, agent insufficient product knowledge, poor product or service performance, long issue resolution times, etc. for easier routing to the appropriate service recovery sub-teams.
+
+
