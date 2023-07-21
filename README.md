@@ -33,3 +33,8 @@ The SER model results in 99% accuracy with 10 epochs i.e the neural network was 
 What 99% accuracy means for this model is that, there was only one incorrect prediction among the instances – it classified fear as disgust. See Confusion Matrix
 
 <img src="https://github.com/Sarah-Data/Real-time-contact-centre-analytics---Sentiment-Analysis/blob/main/JPEGS/Confusion%20Matrix.jpg" width="550" height="auto">
+
+## Model Testing
+### SER Result
+
+### NLTK Result
